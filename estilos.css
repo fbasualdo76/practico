@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;700&family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
+
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menues,
+.container-fluid,
+h2,
+p,
+.col-12 div,
+h3,
+h4,
+.col-12 .col-sm-6 .col-md-3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+p {
+    text-align: justify;
+}
+
+i {
+    font-size: 18px;
+}
+
+.col-12 i {
+    font-size: 25px;
+}
+
+footer div p {
+    font-size: 12px;
+}
+
+.container-fluid,
+footer div {
+    padding: 1rem;
+}
+
+.flexMenu,
+.flexQuienesSomos,
+.flexFormulario {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.flexComisionDirectiva {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+/*estilo ul y li*/
+.menues {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menues li {
+    display: inline-block;
+}
+
+.logo,
+.divTitulo,
+.flexFormulario .divTitulo {
+    width: 100%;
+}
+
+.divItem {
+    text-align: center;
+    width: 50%;
+}
+
+.divItem img {
+    width: 90%;
+}
+
+@media(min-width:576px) {
+    .flexMenu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+    .flexQuienesSomos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .flexFormulario {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .flexMenu div,
+    .flexQuienesSomos div,
+    .flexFormulario div {
+        width: 50%;
+    }
+
+    .flexQuienesSomos div {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .logo {
+        width: 60%;
+    }
+
+    .menues {
+        text-align: left;
+    }
+
+    .menuesDerecha {
+        text-align: right;
+    }
+
+    .divItem {
+        width: 33.33%;
+    }
+}
